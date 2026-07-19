@@ -1,0 +1,112 @@
+h1 {
+    text-align: center;
+    font-size: 48px;
+    color: chartreuse;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+
+h2 {
+    color: chartreuse;
+    margin-top: 30px;         
+  margin-bottom: 15px;      
+  text-align: left; 
+}
+
+h3 {
+    color: chartreuse;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+p {
+    color: aqua;
+}
+
+body {
+    margin: 0;                  
+  padding: 0;                 
+  font-family: Arial, sans-serif; 
+  font-size: 14px;            
+  color: aqua;
+  background-color: black;
+}
+
+a {
+ color: aqua;  
+ text-decoration: none; 
+}
+
+a:hover {
+color: blue;
+}
+
+#Gallery {
+   display: grid; 
+   grid-template-columns: repeat(3, 1fr);
+   gap: 20px;
+}
+
+#Gallery figcaption {
+    text-align: center;
+    margin-top: 8px;
+}
+
+#Gallery figure {
+text-align: center;
+border-radius: 6px;
+border: 1px solid gray;
+}
+
+#Gallery img {
+    width: 100%;
+    border-radius: 6px;
+}
+
+#Contact {
+    text-align: center;
+    list-style-position: inside;
+}
+
+.navbar {
+  position: fixed;       
+  top: 0;                
+  left: 0;
+  width: 100%;           
+  background-color: chartreuse;
+  z-index: 1000;        
+}
+
+
+.navbar ul {
+  list-style-type: none; 
+  margin: 0;
+  padding: 0;
+  display: flex;         
+  justify-content: center; 
+}
+
+
+.navbar li {
+  margin: 0 15px;        
+}
+
+
+.navbar li a {
+  display: block;
+  color: black;       
+  text-decoration: none; 
+  padding: 14px 20px;
+  transition: background 0.3s;
+}
+
+
+.navbar li a:hover {
+  background-color:blue ;
+  border-radius: 4px;
+}
+
+
+body {
+  padding-top: 60px;     
+}
