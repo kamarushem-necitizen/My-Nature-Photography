@@ -24,7 +24,8 @@ you can view the live site for My Nature Photgraphy here:
 https://kamarushem-necitizen.github.io/My-Nature-Photography/
 
 # Project Design
-(Design-draft.jpg)
+[![Handwritten Design](design-draft.jpg)](design-draft.jpg)
+
 
 # copyright
 2026 Kamaru. All rights reserved.
